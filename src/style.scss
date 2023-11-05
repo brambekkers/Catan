@@ -1,0 +1,20 @@
+// use local font
+@font-face {
+  font-family: 'Honey Blot Caps';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Honey Blot Caps'), url('./assets/fonts/honeyblot_caps.ttf');
+}
+
+* {
+  color: #161616;
+  font-family: 'Honey Blot Caps', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #889954;
+}
